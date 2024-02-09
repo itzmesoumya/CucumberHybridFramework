@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 68.514 s <<< FAILURE! - in runner.TestRunner
+Login with valid email and invalid password(Login functionality)  Time elapsed: 4.53 s  <<< FAILURE!
+java.lang.AssertionError
+
+User creates an account only with mandatory fields(Registration functionality)  Time elapsed: 5.714 s  <<< ERROR!
+java.lang.NullPointerException
+
+User creates an account with all fields(Registration functionality)  Time elapsed: 5.941 s  <<< ERROR!
+java.lang.NullPointerException
+
